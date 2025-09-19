@@ -9,19 +9,19 @@ public class MyThreadClass
 {
     public static void Thread1()
     {
-        for (int i = 0; i < 2; i++)
+        for (int loopCount = 0; loopCount < 3; loopCount++)
         {
             Thread thread = Thread.CurrentThread;
-            Console.WriteLine("Name of Thread: " + thread.Name + "Process = " + i);
+            Console.WriteLine("Name of Thread: " + thread.Name + "Process = " + loopCount);
             Thread.Sleep(500);
         }
     }
     public static void Thread2()
     {
-        for (int i = 0; i < 6; i++)
+        for (int loopCount = 0; loopCount < 6; loopCount++)
         {
             Thread thread = Thread.CurrentThread;
-            Console.WriteLine("Name of Thread: " + thread.Name + "Process = " + i);
+            Console.WriteLine("Name of Thread: " + thread.Name + "Process = " + loopCount);
             Thread.Sleep(1500);
         }
     }

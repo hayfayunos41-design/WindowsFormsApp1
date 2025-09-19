@@ -51,7 +51,7 @@ namespace WindowsFormsApp1
             threadA.Join();
             threadB.Join();
             threadC.Join();
-            threadD.Join();
+            threadB.Join();
 
             lblStatus.Text = "-End of Thread-";
         }

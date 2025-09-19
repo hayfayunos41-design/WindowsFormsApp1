@@ -35,7 +35,7 @@
             // btnRun
             // 
             this.btnRun.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRun.Location = new System.Drawing.Point(303, 339);
+            this.btnRun.Location = new System.Drawing.Point(215, 236);
             this.btnRun.Name = "btnRun";
             this.btnRun.Size = new System.Drawing.Size(179, 70);
             this.btnRun.TabIndex = 0;
@@ -46,10 +46,10 @@
             // lblStatus
             // 
             this.lblStatus.AutoSize = true;
-            this.lblStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStatus.Location = new System.Drawing.Point(231, 46);
+            this.lblStatus.Font = new System.Drawing.Font("Modern No. 20", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStatus.Location = new System.Drawing.Point(30, 32);
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(323, 55);
+            this.lblStatus.Size = new System.Drawing.Size(615, 98);
             this.lblStatus.TabIndex = 1;
             this.lblStatus.Text = "-Thread Start-";
             // 
@@ -57,8 +57,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkGray;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.LemonChiffon;
+            this.ClientSize = new System.Drawing.Size(689, 348);
             this.Controls.Add(this.lblStatus);
             this.Controls.Add(this.btnRun);
             this.Name = "Form1";
